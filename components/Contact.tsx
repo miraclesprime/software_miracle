@@ -72,11 +72,11 @@ export default function Contact() {
             </p>
 
             <div className={styles.contactLinks}>
-              <a href="mailto:hello@ryantan.dev" className={styles.contactLink}>
+              <a href="mailto:pistar96314@gmail.com" className={styles.contactLink}>
                 <span className={styles.icon}>✉️</span>
                 <div>
                   <div className={styles.label}>Email</div>
-                  <div className={styles.value}>hello@ryantan.dev</div>
+                  <div className={styles.value}>pistar96314@gmail.com</div>
                 </div>
               </a>
 
