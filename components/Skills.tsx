@@ -27,11 +27,16 @@ const skillsData: Record<string, SkillCategory> = {
     name: 'Full-Stack',
     skills: [
       { name: 'TypeScript', description: 'Type-safe application development' },
+      { name: 'JavaScript', description: 'Dynamic, versatile application development' },
       { name: 'React', description: 'Modern frontend UI and state management' },
       { name: 'Next.js', description: 'Full-stack JavaScript framework' },
       { name: 'Node.js', description: 'Backend services and API development' },
       { name: 'PostgreSQL', description: 'Database design and optimization' },
       { name: 'Tailwind CSS', description: 'Modern CSS framework' },
+      { name: 'MongoDB', description: 'NoSQL document database for flexible data' },
+      { name: 'Express', description: 'Minimalist Node.js web framework' },
+      { name: 'Nest.js', description: 'Structured, scalable Node.js framework' },
+      { name: 'Python', description: 'General-purpose, high-level programming' },
     ],
   },
   devOps: {

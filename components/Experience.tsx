@@ -15,11 +15,11 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    company: 'DeFi Protocol Labs',
-    role: 'Senior Smart Contract Engineer',
-    location: 'Remote',
-    startDate: 'Jan 2022',
-    endDate: 'Present',
+    company: 'BlockVerse Solutions',
+    role: 'Senior Smart Contract Developer',
+    location: 'Singapore (Remote)',
+    startDate: 'Jan 2023',
+    endDate: 'Oct 2025',
     type: 'blockchain',
     highlights: [
       'Lead architect for multi-chain AMM protocol reaching $450M TVL',
@@ -28,11 +28,11 @@ const experiences: ExperienceItem[] = [
     ],
   },
   {
-    company: 'Solana Ventures',
+    company: 'BlockVerse Solutions',
     role: 'Blockchain Engineer',
-    location: 'Remote',
-    startDate: 'Jun 2021',
-    endDate: 'Dec 2021',
+    location: 'Singapore (Remote)',
+    startDate: 'Feb 2022',
+    endDate: 'Dec 2022',
     type: 'blockchain',
     highlights: [
       'Built high-performance NFT marketplace handling 300k+ transactions',
@@ -41,11 +41,11 @@ const experiences: ExperienceItem[] = [
     ],
   },
   {
-    company: 'Bridge Protocol Inc',
+    company: 'BlockVerse Solutions',
     role: 'Lead Protocol Architect',
-    location: 'Singapore',
-    startDate: 'Mar 2020',
-    endDate: 'May 2021',
+    location: 'Singapore (Remote)',
+    startDate: 'Sep 2021',
+    endDate: 'Jan 2022',
     type: 'blockchain',
     highlights: [
       'Architected trustless cross-chain bridge securing $85M+ in assets',
@@ -54,11 +54,11 @@ const experiences: ExperienceItem[] = [
     ],
   },
   {
-    company: 'Tech Innovations Ltd',
+    company: 'Selleo Labs sp. z o.o.',
     role: 'Full-Stack Developer',
-    location: 'Singapore',
+    location: 'Bielsko‑Biała, Poland (Remote)',
     startDate: 'Jan 2019',
-    endDate: 'Feb 2020',
+    endDate: 'May 2021',
     type: 'fullStack',
     highlights: [
       'Built scalable microservices architecture using Node.js and React',
@@ -67,10 +67,10 @@ const experiences: ExperienceItem[] = [
     ],
   },
   {
-    company: 'StartUp Blockchain Labs',
+    company: 'CodeMinds Solutions',
     role: 'Junior Developer',
-    location: 'Remote',
-    startDate: 'Jun 2018',
+    location: 'Lisbon, Portugal (Remote)',
+    startDate: 'May 2017',
     endDate: 'Dec 2018',
     type: 'backend',
     highlights: [

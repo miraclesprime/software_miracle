@@ -98,6 +98,15 @@ export default function Hero() {
     }
   };
 
+  const handleContactScroll = () => {
+    const contactSection = document.querySelector('#contact');
+    if (contactSection) {
+      const navHeight = 72;
+      const top = contactSection.getBoundingClientRect().top + window.scrollY - navHeight;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className={styles.hero}>
       <div className={styles.canvas}>
@@ -106,50 +115,23 @@ export default function Hero() {
 
       <div className={styles.container}>
         <div className={styles.content}>
-          <div className={styles.label}>Senior Blockchain Engineer</div>
-
           <h1 className={styles.title}>
-            Building Ethereum & Solana
-            <br />
-            <span className={styles.highlight}>DeFi, NFTs & Cross-Chain</span>
-            <br />
-            Systems at Scale
+            <span className={styles.textLine}>Blockchain Developer &</span>
+            <span className={styles.highlight}>Web3 Engineer</span>
           </h1>
 
           <p className={styles.subtitle}>
-            Production-ready blockchain architecture. Performance-optimized smart contracts.
-            Cross-chain interoperability. Security-first development.
+            Building the decentralized future with smart contracts, DeFi protocols, and innovative Web3 solutions.
           </p>
 
-          <div className={styles.metrics}>
-            <div className={styles.metric}>
-              <span className={styles.metricValue}>300k+</span>
-              <span className={styles.metricLabel}>NFT Txs Handled</span>
-            </div>
-            <div className={styles.metric}>
-              <span className={styles.metricValue}>20+</span>
-              <span className={styles.metricLabel}>DeFi Protocols</span>
-            </div>
-            <div className={styles.metric}>
-              <span className={styles.metricValue}>5+</span>
-              <span className={styles.metricLabel}>Blockchains</span>
-            </div>
-          </div>
-
           <div className={styles.ctas}>
-            <button className="btn btn-primary">Let's Collaborate</button>
-            <button className={`btn btn-secondary ${styles.scrollBtn}`} onClick={handleScroll}>
-              View Selected Work
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M8 1v12M13 8l-5 5-5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
+            <button className={styles.ctaPrimary} onClick={handleScroll}>
+              View Projects
+            </button>
+            <button className={styles.ctaSecondary} onClick={handleContactScroll}>
+              Contact Me
             </button>
           </div>
-        </div>
-
-        <div className={styles.visual}>
-          <div className={styles.glowCircle}></div>
-          <div className={styles.gradientBg}></div>
         </div>
       </div>
     </section>
