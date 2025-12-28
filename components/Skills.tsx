@@ -12,53 +12,69 @@ interface SkillCategory {
 }
 
 const skillsData: Record<string, SkillCategory> = {
-  blockchain: {
-    name: 'Blockchain',
+  core: {
+    name: 'Core Languages',
     skills: [
-      { name: 'Solidity', description: 'Smart contract development, optimization, and security' },
-      { name: 'Rust', description: 'Solana program development and cross-chain protocols' },
-      { name: 'Web3.js', description: 'Blockchain interaction and dApp integration' },
-      { name: 'Ethereum', description: 'Full-stack EVM development and layer 2s' },
-      { name: 'Solana', description: 'Program development and protocol integration' },
-      { name: 'Smart Contracts', description: 'DeFi, NFT, and complex contract architecture' },
+      { name: 'Python', description: 'FastAPI, Django, Flask, data engineering' },
+      { name: 'Go', description: 'High-performance backend services' },
+      { name: 'PHP', description: 'High-performance backend services' },
+      { name: 'TypeScript', description: 'Type-safe frontend and backend' },
+      { name: 'JavaScript', description: 'Flexible application logic and tooling' },
+      { name: 'Node', description: 'Scripting ' },
     ],
   },
-  fullStack: {
-    name: 'Full-Stack',
+  backend: {
+    name: 'Backend & APIs',
     skills: [
-      { name: 'TypeScript', description: 'Type-safe application development' },
-      { name: 'JavaScript', description: 'Dynamic, versatile application development' },
-      { name: 'React', description: 'Modern frontend UI and state management' },
-      { name: 'Next.js', description: 'Full-stack JavaScript framework' },
-      { name: 'Node.js', description: 'Backend services and API development' },
-      { name: 'PostgreSQL', description: 'Database design and optimization' },
-      { name: 'Tailwind CSS', description: 'Modern CSS framework' },
-      { name: 'MongoDB', description: 'NoSQL document database for flexible data' },
-      { name: 'Express', description: 'Minimalist Node.js web framework' },
-      { name: 'Nest.js', description: 'Structured, scalable Node.js framework' },
-      { name: 'Python', description: 'General-purpose, high-level programming' },
+      { name: 'FastAPI', description: 'Scalable Python APIs' },
+      { name: 'Django', description: 'Batteries-included web frameworks' },
+      { name: 'Flask', description: 'Lightweight Python services' },
+      { name: 'Node.js', description: 'JavaScript backend services' },
+      { name: 'Java', description: 'Backend services' },
+      { name: 'Golang', description: 'Backend services' },
+      { name: 'GraphQL', description: 'Flexible API schemas' },
+      { name: 'Microservices', description: 'Distributed service architectures' },
     ],
   },
-  devOps: {
-    name: 'DevOps & Tools',
+  data: {
+    name: 'Databases & Data',
     skills: [
-      { name: 'Docker', description: 'Containerization and deployment' },
-      { name: 'AWS', description: 'Cloud infrastructure and services' },
-      { name: 'GitHub', description: 'Version control and CI/CD pipelines' },
-      { name: 'Hardhat', description: 'Contract testing, deployment, and gas analysis' },
-      { name: 'Foundry', description: 'Advanced Solidity testing framework' },
-      { name: 'Truffle', description: 'Smart contract development suite' },
+      { name: 'PostgreSQL', description: 'Relational schema design and optimization' },
+      { name: 'MySQL', description: 'OLTP databases and indexing' },
+      { name: 'MongoDB', description: 'Flexible document stores' },
+      { name: 'Redis', description: 'Caching and real-time state' },
+      { name: 'Firebase', description: 'Realtime apps and auth' },
     ],
   },
-  security: {
-    name: 'Security & Testing',
+  frontend: {
+    name: 'Frontend',
     skills: [
-      { name: 'Auditing', description: 'Smart contract security reviews and best practices' },
-      { name: 'Formal Verification', description: 'Mathematical correctness proving' },
-      { name: 'Hardhat Tests', description: 'Comprehensive contract testing' },
-      { name: 'MythX', description: 'Automated smart contract security analysis' },
-      { name: 'Access Control', description: 'Role-based permissions and security models' },
-      { name: 'Gas Optimization', description: 'Performance and cost optimization' },
+      { name: 'React', description: 'Responsive UIs and state management' },
+      { name: 'Next.js', description: 'Server-rendered React apps' },
+      { name: 'Redux Toolkit', description: 'State management patterns' },
+      { name: 'Angular', description: 'Enterprise SPAs (2+)' },
+      { name: 'Vue / Nuxt', description: 'Progressive frontend frameworks' },
+      { name: 'HTML/CSS/Sass', description: 'Accessible markup and styling' },
+    ],
+  },
+  cloud: {
+    name: 'Cloud & DevOps',
+    skills: [
+      { name: 'AWS', description: 'S3, EKS, Lambda, Glue' },
+      { name: 'GCP', description: 'Cloud-native services' },
+      { name: 'Azure', description: 'Data Lake and Databricks' },
+      { name: 'Docker', description: 'Containerization and images' },
+      { name: 'CI/CD', description: 'Jenkins, GitLab CI, GitHub Actions' },
+    ],
+  },
+  tools: {
+    name: 'Tools & Testing',
+    skills: [
+      { name: 'Jest', description: 'Unit testing' },
+      { name: 'Mocha', description: 'Testing utilities' },
+      { name: 'Cypress', description: 'End-to-end testing' },
+      { name: 'OpenTelemetry', description: 'Instrumentation and observability' },
+      { name: 'Apache Arrow', description: 'High-performance ETL serialization' },
     ],
   },
 };

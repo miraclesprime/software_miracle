@@ -60,7 +60,7 @@ export default function Contact() {
         <div className={styles.header}>
           <h2 className="section-title">Get In Touch</h2>
           <p className={styles.subtitle}>
-            Open to collaborating with teams building serious Web3 products. Let's create something exceptional.
+            Open to collaborating with teams building serious products. Let's create something exceptional.
           </p>
         </div>
 
@@ -72,11 +72,11 @@ export default function Contact() {
             </p>
 
             <div className={styles.contactLinks}>
-              <a href="mailto:devmaster116@gmail.com" className={styles.contactLink}>
+              <a href="mailto:miraclesprime@gmail.com" className={styles.contactLink}>
                 <span className={styles.icon}>✉️</span>
                 <div>
                   <div className={styles.label}>Email</div>
-                  <div className={styles.value}>devmaster116@gmail.com</div>
+                  <div className={styles.value}>miraclesprime@gmail.com</div>
                 </div>
               </a>
 
@@ -88,11 +88,19 @@ export default function Contact() {
                 </div>
               </a> */}
 
-              <a href="https://github.com/devmaster116" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+              <a href="https://github.com/miraclesprime" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
                 <span className={styles.icon}>🐙</span>
                 <div>
                   <div className={styles.label}>GitHub</div>
-                  <div className={styles.value}>github.com/devmaster116</div>
+                  <div className={styles.value}>github.com/miraclesprime</div>
+                </div>
+              </a>
+
+              <a href="https://t.me/miraclesprime" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+                <span className={styles.icon}>✈️</span>
+                <div>
+                  <div className={styles.label}>Telegram</div>
+                  <div className={styles.value}>@miraclesprime</div>
                 </div>
               </a>
 

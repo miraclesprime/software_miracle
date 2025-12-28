@@ -9,74 +9,50 @@ interface ExperienceItem {
   location: string;
   startDate: string;
   endDate: string;
-  type: 'blockchain' | 'fullStack' | 'backend';
+  type: 'ml' | 'data' | 'web';
   highlights: string[];
 }
 
 const experiences: ExperienceItem[] = [
   {
-    company: 'BlockVerse Solutions',
-    role: 'Senior Smart Contract Developer',
-    location: 'Devtechstu (Remote)',
-    startDate: 'Jan 2023',
-    endDate: 'Oct 2025',
-    type: 'blockchain',
+    company: 'Bitoro Labs',
+    role: 'Senior  Software Engineer',
+    location: 'Remote',
+    startDate: '2024',
+    endDate: 'Present',
+    type: 'ml',
     highlights: [
-      'Lead architect for multi-chain AMM protocol reaching $450M TVL',
-      'Implemented advanced concentrated liquidity mechanisms reducing slippage by 40%',
-      'Managed security audits and implemented recommendations achieving 100% pass rate',
+      'Led development of scalable backend systems in Python and Go for payroll and HR management',
+      'Designed RESTful and GraphQL APIs and served ML inference requests with OAuth2/JWT security',
+      'Migrated datasets to AWS S3 and Azure Data Lake; implemented ETL with Databricks and Glue',
+      'Containerized services and orchestrated on EKS/AKS with Helm for zero-downtime deployments',
     ],
   },
   {
-    company: 'BlockVerse Solutions',
-    role: 'Blockchain Engineer',
-    location: 'DevTechStudio LLC (Remote)',
-    startDate: 'Feb 2022',
-    endDate: 'Dec 2022',
-    type: 'blockchain',
+    company: 'Freelance (Self-employed)',
+    role: 'Data Scientist / ML Engineer',
+    location: 'Remote',
+    startDate: '01/2020',
+    endDate: '04/2024',
+    type: 'data',
     highlights: [
-      'Built high-performance NFT marketplace handling 300k+ transactions',
-      'Optimized transaction costs to <$0.01 per trade using Solana',
-      'Designed royalty enforcement at protocol level for creators',
+      'Integrated TensorFlow and PyTorch models into payment workflows to reduce fraud false positives',
+      'Built real-time dashboards (Angular/React) to visualize transaction anomaly scores',
+      'Automated ML deployments with Docker, Kubernetes, and Seldon Core on AWS EKS',
+      'Instrumented services with OpenTelemetry; centralized logs and configured Grafana alerts',
     ],
   },
   {
-    company: 'BlockVerse Solutions',
-    role: 'Lead Protocol Architect',
-    location: 'DevTechStudio LLC  (Remote)',
-    startDate: 'Sep 2021',
-    endDate: 'Jan 2022',
-    type: 'blockchain',
+    company: 'Upwork',
+    role: 'Freelance Web Developer',
+    location: 'Remote',
+    startDate: '07/2014',
+    endDate: '12/2019',
+    type: 'web',
     highlights: [
-      'Architected trustless cross-chain bridge securing $85M+ in assets',
-      'Integrated 5+ blockchain networks with enhanced security measures',
-      'Reduced bridge latency from 10 minutes to 30 seconds through optimization',
-    ],
-  },
-  {
-    company: 'Selleo Labs sp. z o.o.',
-    role: 'Full-Stack Developer',
-    location: 'Biztree (Remote)',
-    startDate: 'Jan 2019',
-    endDate: 'May 2021',
-    type: 'fullStack',
-    highlights: [
-      'Built scalable microservices architecture using Node.js and React',
-      'Implemented PostgreSQL database optimization improving query performance by 60%',
-      'Led team of 3 engineers delivering 2 major product features',
-    ],
-  },
-  {
-    company: 'CodeMinds Solutions',
-    role: 'Junior Developer',
-    location: 'Affle Enterprise (Remote)',
-    startDate: 'May 2017',
-    endDate: 'Dec 2018',
-    type: 'backend',
-    highlights: [
-      'Developed RESTful APIs handling 10k+ daily active users',
-      'Implemented automated testing pipeline reducing bugs by 45%',
-      'Contributed to core blockchain integration features',
+      'Developed responsive frontend applications with React, Angular and TypeScript',
+      'Translated UX/UI designs into production interfaces and reusable component libraries',
+      'Supported backend integrations with Node.js and Python and CI/CD workflows',
     ],
   },
 ];
@@ -120,9 +96,9 @@ export default function Experience() {
   }, [isVisible]);
 
   const typeColors: Record<string, string> = {
-    blockchain: 'var(--accent-gold)',
-    fullStack: 'var(--accent-blue)',
-    backend: 'var(--success)',
+    ml: 'var(--accent-gold)',
+    data: 'var(--accent-blue)',
+    web: 'var(--success)'
   };
 
   return (
@@ -166,7 +142,7 @@ export default function Experience() {
                   className={styles.badge}
                   style={{ borderColor: typeColors[exp.type], color: typeColors[exp.type] }}
                 >
-                  {exp.type === 'blockchain' ? 'Blockchain' : exp.type === 'fullStack' ? 'Full-Stack' : 'Backend'}
+                  {exp.type === 'ml' ? 'AI/ML' : exp.type === 'data' ? 'Data/ML' : 'Web'}
                 </span>
               </div>
             </div>

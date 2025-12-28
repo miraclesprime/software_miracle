@@ -116,13 +116,13 @@ export default function Hero() {
       <div className={styles.container}>
         <div className={styles.content}>
           <h1 className={styles.title}>
-            <span className={styles.textLine}>Blockchain Developer &</span>
-            <span className={styles.highlight}>Web3 Engineer &</span>
-            <span className={styles.textLine}>Full-Stack Developer</span>
+            <span className={styles.textLine}>Senior Software Engineer</span>
+            {/* <span className={styles.highlight}></span> */}
+            {/* <span className={styles.textLine}>Full-Stack Developer</span> */}
           </h1>
 
           <p className={styles.subtitle}>
-            Building the decentralized future with smart contracts, DeFi protocols, and innovative Web3 solutions.
+            I love coding. I’ve spent the last 10+ years writing code, debugging my own mistakes, and enjoying the moment when everything finally works.
           </p>
 
           <div className={styles.ctas}>

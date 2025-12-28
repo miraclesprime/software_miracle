@@ -32,45 +32,51 @@ export default function About() {
         <div className={styles.content}>
           <div className={styles.narrative}>
             <p>
-              I'm a Senior Blockchain Engineer with 5+ years building production-grade systems on Ethereum and Solana. My expertise spans full-stack DeFi protocols, NFT infrastructure, and cross-chain interoperability—from smart contract architecture to gas optimization and security.
+              Senior Full-Stack Engineer with 10+ years of experience building production-grade applications with
+              Python (FastAPI, Django, Flask), PyTorch, and modern JavaScript (React, TypeScript). I deliver
+              end-to-end features across backend services, REST/GraphQL APIs, front-end interfaces, relational
+              databases, CI/CD workflows, and cloud-native environments (AWS, Azure, GCP).
             </p>
             <p>
-              I thrive at the intersection of complex protocol design and practical engineering. Whether architecting a novel AMM mechanism, optimizing contract deployments for cost efficiency, or building resilient bridges between chains, I focus on solutions that scale, secure, and perform.
+              I design scalable FastAPI services, build responsive React UIs, optimize PostgreSQL/MySQL schemas,
+              and implement unit, integration, and performance tests to ensure reliability. I also integrate
+              AI/LLM-driven features, embeddings, and ML inference services powered by PyTorch.
             </p>
             <p>
-              My approach: deep protocol understanding, meticulous testing, and a bias toward clean, auditable code. I work best in distributed, execution-focused teams shipping real products to real users.
+              Comfortable owning functionality across the full SDLC — architecture, development, testing,
+              deployment, and production support in enterprise and remote team contexts.
             </p>
           </div>
 
           <div className={styles.facts}>
             <div className={styles.factItem}>
               <div className={styles.factLabel}>Location</div>
-              <div className={styles.factValue}>Singapore (Remote-first)</div>
+              <div className={styles.factValue}>(Remote)</div>
             </div>
 
             <div className={styles.factItem}>
               <div className={styles.factLabel}>Experience</div>
-              <div className={styles.factValue}>5+ Years in Web3</div>
+              <div className={styles.factValue}>10+ years</div>
             </div>
 
             <div className={styles.factItem}>
               <div className={styles.factLabel}>Primary Focus</div>
-              <div className={styles.factValue}>DeFi & NFT Protocols</div>
+              <div className={styles.factValue}>Full-Stack & ML/AI</div>
             </div>
 
             <div className={styles.factItem}>
-              <div className={styles.factLabel}>Blockchains</div>
-              <div className={styles.factValue}>Ethereum, Solana, Polygon, Arbitrum, Optimism</div>
+              <div className={styles.factLabel}>Databases</div>
+              <div className={styles.factValue}>PostgreSQL, MySQL, MongoDB</div>
             </div>
 
             <div className={styles.factItem}>
-              <div className={styles.factLabel}>Expertise</div>
-              <div className={styles.factValue}>Smart Contracts, Cross-Chain Architecture</div>
+              <div className={styles.factLabel}>Cloud</div>
+              <div className={styles.factValue}>AWS, Azure, GCP</div>
             </div>
 
             <div className={styles.factItem}>
               <div className={styles.factLabel}>Open To</div>
-              <div className={styles.factValue}>Collaboration & Advisory</div>
+              <div className={styles.factValue}>Collaboration & Contract Roles</div>
             </div>
           </div>
         </div>

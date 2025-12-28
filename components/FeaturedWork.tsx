@@ -9,6 +9,7 @@ interface CaseStudy {
   descriptor: string;
   impact: string;
   tech: string[];
+  url: string;
   image?: string;
   details?: {
     overview: string;
@@ -19,66 +20,87 @@ interface CaseStudy {
 
 const caseStudies: CaseStudy[] = [
   {
-    id: 'amm-protocol',
-    title: 'Next-Gen AMM Protocol',
-    descriptor: 'Ethereum AMM with concentrated liquidity',
-    impact: '$450M+ TVL, 50k+ daily active users',
-    tech: ['Solidity', 'Hardhat', 'Uniswap V3', 'React', 'Web3.js'],
+    id: 'business-in-a-box',
+    title: 'Business-In-a-Box',
+    descriptor: 'Project Task Management App',
+    impact: 'Powerful task assignment, real-time progress tracking, and dynamic work reallocation',
+    url: 'https://project.business-in-a-box.com/mytasks',
+    tech: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
     details: {
-      overview: 'Architected and deployed a concentrated liquidity AMM protocol reducing slippage by 40% compared to traditional AMMs while maintaining capital efficiency.',
-      role: 'Lead Smart Contract Developer',
+      overview: 'A comprehensive task management application designed for visionary leaders. Effortlessly assign tasks with clarity, track progress in real-time, and dynamically reallocate work as priorities shift.',
+      role: 'Full-Stack Developer',
       results: [
-        'Reduced gas costs by 35% through optimized state management',
-        'Implemented multi-tier fee structures for improved LP returns',
-        'Achieved 99.9% uptime across mainnet deployments'
+        'Built intuitive task assignment and tracking interface',
+        'Implemented real-time progress updates and collaboration features',
+        'Designed flexible task reallocation system',
       ]
     }
   },
   {
-    id: 'nft-marketplace',
-    title: 'Enterprise NFT Marketplace',
-    descriptor: 'Solana-based digital asset trading platform',
-    impact: '300k+ NFT transactions, $120M volume',
-    tech: ['Rust', 'Solana Program Library', 'Next.js', 'TypeScript'],
+    id: 'apgile',
+    title: 'Apgile',
+    descriptor: 'Real-time Service Management Platform',
+    impact: 'Enhanced service quality and customer experience with real-time monitoring',
+    url: 'https://apgile.com/',
+    tech: ['React', 'Python', 'FastAPI', 'WebSocket', 'PostgreSQL'],
     details: {
-      overview: 'Built a high-performance NFT marketplace on Solana with sub-second transaction finality and support for complex trading mechanics.',
-      role: 'Full-Stack Blockchain Engineer',
+      overview: 'A real-time service management platform enabling teams to receive and manage customer service requests, send and escalate alerts, and monitor team performance. The system includes wearable (smartwatch) interaction support.',
+      role: 'Full-Stack Engineer',
       results: [
-        'Processed 300k+ transactions without performance degradation',
-        'Implemented royalty enforcement at protocol level',
-        'Reduced transaction costs to <$0.01 per trade'
+        'Implemented real-time request management and escalation workflows',
+        'Built performance monitoring dashboards for team insights',
+        'Integrated wearable device support for on-the-go management',
       ]
     }
   },
   {
-    id: 'cross-chain-bridge',
-    title: 'Cross-Chain Bridge Protocol',
-    descriptor: 'Multi-chain token bridge (Ethereum, Polygon, Arbitrum)',
-    impact: '$85M+ secured, 99.95% uptime',
-    tech: ['Solidity', 'LayerZero', 'Python', 'Go', 'AWS'],
+    id: 'bookkeeping-ai',
+    title: 'Bookkeeping/Finance Automation',
+    descriptor: 'AI-Powered Financial Operations Platform',
+    impact: 'Streamlined financial operations with intelligent categorization and automation',
+    url: 'https://booke.ai/us',
+    tech: ['Python', 'FastAPI', 'Machine Learning', 'React', 'PostgreSQL'],
     details: {
-      overview: 'Designed and implemented a trustless cross-chain bridge enabling seamless asset transfers across multiple EVM and non-EVM networks with enhanced security.',
-      role: 'Lead Protocol Architect',
+      overview: 'An AI-powered platform that streamlines daily financial operations including transaction categorization, bank reconciliations, invoice and receipt data extraction, error detection, and month-end close support. Seamlessly integrates with Xero and QuickBooks Online.',
+      role: 'Backend Engineer / ML Integrator',
       results: [
-        'Reduced bridge latency from 10min to 30 seconds',
-        'Passed comprehensive third-party security audit',
-        'Integrated with 5+ blockchain networks'
+        'Designed ML pipelines for transaction categorization and data extraction',
+        'Implemented integrations with accounting systems (Xero, QuickBooks Online)',
+        'Built robust error detection and reconciliation workflows',
       ]
     }
   },
   {
-    id: 'lending-protocol',
-    title: 'Algorithmic Lending Protocol',
-    descriptor: 'Ethereum lending protocol with dynamic interest rates',
-    impact: '$200M+ deposits, 15% average APY',
-    tech: ['Solidity', 'Compound', 'Aave', 'Oracle Networks', 'React'],
+    id: 'vinext',
+    title: 'Vinext.ai',
+    descriptor: 'AI-Powered Image & Video Generation Platform',
+    impact: 'Scalable backend for instant AI-driven creative content generation',
+    url: 'https://vinext.ai/',
+    tech: ['Python', 'FastAPI', 'Generative AI', 'Microservices', 'AWS'],
     details: {
-      overview: 'Developed a sophisticated lending protocol with dynamic interest rate optimization and comprehensive risk management systems.',
-      role: 'Smart Contract Architect',
+      overview: 'A web platform providing AI-powered image and video generation tools. Users input text or media prompts to generate visuals and short videos instantly using advanced generative models.',
+      role: 'Backend Engineer',
       results: [
-        'Implemented sophisticated interest rate curve optimization',
-        'Reduced liquidation cascades through improved risk modeling',
-        'Achieved consistent 99%+ capital utilization'
+        'Designed and scaled Python FastAPI microservices for handling user requests',
+        'Orchestrated AI generation workflows with efficient processing pipelines',
+        'Optimized backend to serve results efficiently to the frontend',
+      ]
+    }
+  },
+  {
+    id: 'taproot',
+    title: 'TapRooT® Root Cause Analysis',
+    descriptor: 'Enterprise Analysis Platform for Regulated Industries',
+    impact: 'Modernized platform serving energy, healthcare, and manufacturing sectors',
+    url: 'https://taproot.com/',
+    tech: ['React', 'TypeScript', 'Django', 'Flask', 'PostgreSQL', 'AWS'],
+    details: {
+      overview: 'An enterprise React/Django platform used in regulated industries such as energy, healthcare, and manufacturing. Modernized frontend using TypeScript with a composition-based architecture and reusable accessible UI components.',
+      role: 'Full-Stack Developer',
+      results: [
+        'Modernized frontend with TypeScript and Tailwind CSS/shadcn/ui components',
+        'Improved backend API performance through query optimization and caching',
+        'Implemented comprehensive Jest and Cypress test coverage',
       ]
     }
   },
@@ -112,7 +134,7 @@ export default function FeaturedWork() {
         <div className={styles.container}>
           <div className={styles.header}>
             <h2 className="section-title">Selected Work</h2>
-            <p className={styles.subtitle}>Curated projects shipping production-grade blockchain systems.</p>
+            <p className={styles.subtitle}>Please feel free to review my previous projects for reference.</p>
           </div>
 
           <div className={styles.grid}>
@@ -143,10 +165,12 @@ export default function FeaturedWork() {
                 </div>
 
                 <div className={styles.cardCta}>
-                  View case study
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3 8h10M10 5l3 3-3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  <a href={study.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} style={{display: 'flex', alignItems: 'center', gap: '8px', color: 'inherit', textDecoration: 'none'}}>
+                    Visit Project
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path d="M3 8h10M10 5l3 3-3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </a>
                 </div>
               </div>
             ))}
@@ -163,8 +187,13 @@ export default function FeaturedWork() {
 
             <div className={styles.modalContent}>
               <div className={styles.modalHeader}>
-                <h2 className={styles.modalTitle}>{selectedStudy.title}</h2>
-                <p className={styles.modalDescriptor}>{selectedStudy.descriptor}</p>
+                <div>
+                  <h2 className={styles.modalTitle}>{selectedStudy.title}</h2>
+                  <p className={styles.modalDescriptor}>{selectedStudy.descriptor}</p>
+                </div>
+                <a href={selectedStudy.url} target="_blank" rel="noopener noreferrer" style={{padding: '8px 16px', backgroundColor: 'var(--accent-gold)', color: '#0a0e27', borderRadius: '6px', textDecoration: 'none', fontWeight: 500, whiteSpace: 'nowrap'}}>
+                  Visit Project ↗
+                </a>
               </div>
 
               <div className={styles.modalBody}>

@@ -1,0 +1,36 @@
+Business-In-a-Box, 
+https://project.business-in-a-box.com/mytasks
+The Project Task Management App combines powerful features designed for visionary leaders who need precision,
+adaptability, and real-time insights. Effortlessly assign tasks with clarity, track progress in real-time, and
+dynamically reallocate work as priorities shift.
+
+Apgile, 
+https://apgile.com/
+Apgile is a real-time service management platform that enables teams to receive and manage customer service
+requests, send and escalate alerts, and monitor team performance in real time. The system helps improve service
+quality and customer experience by proactively identifying and preventing issues, with support for wearable
+(smartwatch) interactions.
+
+Bookkeeping/Finance Automation, 
+https://booke.ai/us
+AI-powered bookkeeping and finance automation platform that streamlines daily financial operations, including
+transaction categorization, bank reconciliations, invoice and receipt data extraction, error detection, and monthend close support. The platform integrates with leading accounting systems such as Xero and QuickBooks Online
+(with potential support for Zoho Books) to seamlessly sync and operate within existing workflows.
+
+Powerful AI Hub for Generating Images & Videos
+https://vinext.ai/
+Build impressive images and videos all on one platform
+I worked on the backend for Vinext.ai , a web platform that provides AI-powered image and video generation
+tools. Users could input text or media prompts to generate visuals and short videos instantly using advanced
+generative models.
+My role was to design and scale the backend services that powered this platform. I built and maintained Python
+FastAPI microservices responsible for handling user requests, orchestrating the AI generation workflows, and
+serving results efficiently to the frontend.
+
+
+TapRooT® Root Cause Analysis, https://taproot.com/
+The project was an enterprise React/Django platform used in regulated industries such as energy, healthcare,
+and manufacturing. I modernized the frontend using TypeScript and a composition-based architecture, building
+reusable and accessible UI components with Tailwind CSS and shadcn/ui.
+On the backend, I worked on Flask with PostgreSQL, improving API performance through query optimization and
+caching. The system was deployed on AWS with CI/CD and covered by Jest and Cypress tests

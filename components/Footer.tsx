@@ -27,8 +27,8 @@ export default function Footer() {
         <div className={styles.container}>
           <div className={styles.content}>
             <div className={styles.brand}>
-              <h3>Dev Master</h3>
-              <p>Senior Blockchain Engineer | DeFi & Cross-Chain Architecture</p>
+              <h3>Miracle Prime</h3>
+              <p>Senior Software Engineer</p>
             </div>
 
             <div className={styles.links}>
@@ -66,7 +66,7 @@ export default function Footer() {
 
           <div className={styles.bottom}>
             <p className={styles.copyright}>
-              © {currentYear} Ryan Tan. All rights reserved. Building the future of Web3.
+              © {currentYear} . All rights reserved. Building the future of Web3.
             </p>
             <button
               className={styles.backToTop}
