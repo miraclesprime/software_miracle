@@ -152,28 +152,24 @@ export default function Skills() {
           <h3>Key Proficiencies</h3>
           <div className={styles.highlightList}>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>🔗</span>
-              <span>Cross-chain protocol design and implementation</span>
+              <span className={styles.icon}>🛠️</span>
+              <span>Backend/API design (FastAPI, Django, Node.js, GraphQL)</span>
             </div>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>⚡</span>
-              <span>Gas optimization and performance tuning</span>
+              <span className={styles.icon}>🤖</span>
+              <span>ML/AI integration (PyTorch, TensorFlow, prompt workflows)</span>
             </div>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>🔒</span>
-              <span>Security auditing and vulnerability detection</span>
+              <span className={styles.icon}>☁️</span>
+              <span>Cloud & DevOps (AWS, Azure, Docker, CI/CD)</span>
             </div>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>📊</span>
-              <span>DeFi mechanics and AMM architecture</span>
+              <span className={styles.icon}>💻</span>
+              <span>Frontend frameworks (React, Next.js, Angular, Vue)</span>
             </div>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>🎨</span>
-              <span>Full-stack dApp development and UX</span>
-            </div>
-            <div className={styles.highlightItem}>
-              <span className={styles.icon}>🚀</span>
-              <span>Scaling solutions and layer 2 optimization</span>
+              <span className={styles.icon}>✅</span>
+              <span>Testing & CI (Jest, Mocha, Cypress, GitHub/GitLab CI)</span>
             </div>
           </div>
         </div>

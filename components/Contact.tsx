@@ -115,15 +115,7 @@ export default function Contact() {
 
             <div className={styles.scheduling}>
               <p>Or schedule a quick 30-minute intro call:</p>
-              <a
-                href="https://calendly.com/miraclesprime/30min" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn btn-secondary"
-                style={{ display: 'inline-block', textDecoration: 'none', marginTop: 8 }}
-              >
-                Schedule Call
-              </a>
+              <button className="btn btn-secondary">Schedule Call</button>
             </div>
           </div>
 

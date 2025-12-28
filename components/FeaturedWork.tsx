@@ -25,7 +25,7 @@ const caseStudies: CaseStudy[] = [
     descriptor: 'Project Task Management App',
     impact: 'Powerful task assignment, real-time progress tracking, and dynamic work reallocation',
     url: 'https://project.business-in-a-box.com/mytasks',
-    tech: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
+    tech: ['Nuxt', 'TypeScript', 'Node.js', 'PostgreSQL'],
     details: {
       overview: 'A comprehensive task management application designed for visionary leaders. Effortlessly assign tasks with clarity, track progress in real-time, and dynamically reallocate work as priorities shift.',
       role: 'Full-Stack Developer',
